@@ -7,10 +7,9 @@ The purpose of this package is to simply provide only the dev assets that can be
 
 ##Usage
 
-Install the package via bower 
-```
-bower install boostrap-sass-components
-```
+Clone repo: `git clone git://github.com/tgdev/bootstrap-sass-components.git.
+
+Install the package via bower: `bower install boostrap-sass-components`
 
 Add to existing bower.json
 
@@ -26,6 +25,6 @@ Add to existing bower.json
 
 ##Bower
 
-Bower cannot concat or build these assets, it simply fetches the specified package from an external location like this here git repo.
+Bower cannot concat, build or add these assets to your html, it simply fetches the specified package from an external location like this here git repo.
 
 More info on bower can be found at [http://bower.io](http://bower.io)
