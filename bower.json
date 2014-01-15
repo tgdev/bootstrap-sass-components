@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-sass-components",
+  "version": "0.1.0",
+  "authors": [
+    "Tom Gillard <tomgillar@gmail.com>"
+  ],
+  "description": "Yet another Sass bootstrap package but only contains the framework's assets (sass, js, fonts) ready to by installed into any project type",
+  "keywords": [
+    "sass",
+    "bootstrap",
+    "sass-bootstrap",
+    "bootstrap-sass",
+    "bootstrap-components"
+  ],
+  "license": "MIT",
+  "main": ["./js/bootstrap.js", "./css/bootstrap.scss", "./fonts/*"],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "*.md"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  }
+}
